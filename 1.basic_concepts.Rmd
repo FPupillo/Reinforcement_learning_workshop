@@ -2,18 +2,26 @@
 title: "Reinforcement Learning Workshop"
 author: "Francesco Pupillo"
 date: "`r format(Sys.time(), '%B %e, %Y')`"
-fontsize: 24pt
 output:
-  html_notebook:
-    code_folding: hide
-    toc: yes
-    toc_float: true
-    toc_collapsed: false
-    number_sections: true
-    toc_depth: 3
-    theme: lumen
-    editor_options: 
-  chunk_output_type: inline
+  # html_document:
+  #   toc: yes
+  #   toc_depth: '3'
+  #   df_print: paged
+  # chunk_output_type: inline
+  # html_notebook:
+  #   code_folding: hide
+  #   toc: yes
+  #   toc_float: yes
+  #   toc_collapsed: no
+  #   number_sections: yes
+  #   toc_depth: 3
+  #   theme: lumen
+  #   editor_options: null
+   md_document:
+    variant: markdown_github
+    toc: true
+    toc_depth: 6
+fontsize: 24pt
 ---
 
 call the packages and source the functions needed
