@@ -2,7 +2,7 @@
 This is an introduction to reinforcement learning of choice data. The material of this repository
 has been used for a workshop at the University of Granada on the 1st of June 2022. 
 The workshop is divided into two parts: basic concepts and model fitting. 
-The slides "reinforcement_learning_slides.pdf" constitutes a guide through the basic principles and applications of cognitive modeling in general and reinforcement learning models in particular. The .md files `1.basic_concepts.md` and `2.model_fitting.md` contain practical examples of the principles illustrated in the slides and can be viewed on github. The corresponding `.Rmd` files can be also run in Rstudio in a computer, while the `.html` files can be viewed on an internet browser after downloading the material. 
+The slides "reinforcement_learning_slides.pdf" constitutes a guide through the basic principles and applications of cognitive modeling in general and reinforcement learning models in particular. The .md files `1.basic_concepts.md` and `2.model_fitting.md` contain practical examples of the principles illustrated in the slides and can be viewed on github. The corresponding `.Rmd` files can be also run in Rstudio on a computer.
 `Create.data.R` contains a script that creates the syntetic data that can be found in the `Data` folder.
 
 ## Main contents
