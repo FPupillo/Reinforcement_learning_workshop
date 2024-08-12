@@ -8,8 +8,8 @@
 *.~lock.*
 *.ds_store
 *thumbs.db
+._*
 *.trashes
 *.fseventd
 *.apdisk
 *.part
-._*

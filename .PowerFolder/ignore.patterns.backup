@@ -1,15 +1,14 @@
-*.crdownload
 *desktop.ini
-*.ithmb
-*.temporary items
-*~$*
-*.partial
+*thumbs.db
 *~*.tmp
+*~$*
 *.~lock.*
 *.ds_store
-*thumbs.db
+*.temporary items
 *.trashes
 *.fseventd
 *.apdisk
 *.part
-._*
+*.partial
+*.crdownload
+*.ithmb

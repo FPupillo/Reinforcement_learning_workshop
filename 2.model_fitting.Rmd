@@ -13,7 +13,7 @@ output:
 ```{r, setup, include=FALSE}
 knitr::opts_knit$set(root.dir = '~/PowerFolders/RL_workshop')
 ```
----
+
 
 # Model Fitting
 
@@ -56,6 +56,7 @@ beta_bound<-c(0, 40) # Boundaries of the beta
 # generate a number of randomparameters
 alpha_seq<-seq(alpha_bound[1], alpha_bound[2], length.out = sims)
 beta_seq<-seq(beta_bound[1], beta_bound[2], length.out = sims)
+
 # randomly shuffle them
 alpha_seq<-sample(alpha_seq)
 beta_seq<-sample(beta_seq)
@@ -318,7 +319,7 @@ for (j in 1: nrow(data_comp)){
 
     index<-which(data_comp[j,]==min(data_comp[j,2:4]))
     
-    index2<-which(data_comp[j,]==as.numeric(sort(data_comp[j,2:4]))[2])
+    index2<-which(data_comp[j,]==sort(as.numeric(data_comp[j,2:4]))[2])
     
     if (length(index)>1) {# fi there are more than one model
       
